@@ -120,8 +120,13 @@ font-weight: bold;
     margin-right: 79px;
     font-size: 35px;
     margin-top: 60px;
+   
     float: right;
 }
+#timer2{
+    margin-bottom: 500px;
+}
+
 .taskPomodoro{
     margin-left: 10%;
 }

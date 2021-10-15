@@ -451,8 +451,11 @@ article #timer{
         text-align: center;
         color: red;
     }
-    
+    .InfoFAQ2{display: none;}
 
+}
+@media screen and(min-width: 702px) and (max-width: 867px){
+    .InfoFAQ2{display: none;}
 }
 
   @media (max-width: 908px){
@@ -467,10 +470,18 @@ article #timer{
      
 .InfoFAQ2{
     margin-left: 300px;
+    
 }
 .InfoFAQ3{
     margin-left: 500px;
 }
+  }
+  @media screen and (min-width: 480px) and (max-width: 1190px){
+
+.timermuestra{
+    margin-left: 40%;
+}
+
   }
 
   @media screen and (min-width: 908px) and (max-width: 1178px){
@@ -485,6 +496,13 @@ article #timer{
     .InfoFAQ3{
         margin-left: 500px;
     }
+    
+}
+@media screen and (max-width:1181px) {
+    .InfoFAQ2{
+        display: none;
+    }
+    .nav{width: 100%;}
 }
    
 

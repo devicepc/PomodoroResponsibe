@@ -11,7 +11,38 @@
 </head>
 <body >
     <header class="header">
-        <div id="nav">
+
+        <nav >
+            
+            <ul>
+             <!--  <li><a href="#">Inicio</a></li>
+              <li><a href="#">Acerca de </a></li>
+              <li><a href="#">Servicios</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Contacto</a></li> -->
+              <li><a href="index.html">Inicio </a></li>
+              <li><a href="acerca.html">Acerca de </a></li>
+              <li><a href="./faq.html">FAQ</a></li>
+              <li><a href="./contacto.html"> Contactenos</a></li>
+            </ul>
+            <div class="flags">
+                <a href="index.html"><img src="./img/spain-flag.png" alt="Español" class="lang"></a>
+            <a href="indexEng.html"><img src="./img/england-flag.png" alt="Español" class="lang"></a>
+        </div>
+            <div class="hide">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+                <img src="./img/menu.png" alt=""> 
+              </div>
+          </nav>
+          
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+            <script>
+              $(".hide").on('click', function() {
+                $("nav ul").toggle('slow');
+              })
+            </script>
+
+       <!--  <div id="nav">
             
             <nav class="menu">
                 <ul>
@@ -23,7 +54,7 @@
                     <a href="./indexEng.html"><img src="./img/england-flag.png" alt="Eng" class="lang"></a>
                 </div>
             </nav>
-        </div>
+        </div> -->
     </header>
     <h1 class="h1title">Bienvenido a PomodoroXPress</h1>
     <nav><img src="./img/icomo.png" alt="" id="logo"></nav>
